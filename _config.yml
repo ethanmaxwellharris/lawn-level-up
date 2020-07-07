@@ -23,3 +23,7 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     disable : true
+    
+# Theme also I guess hashtag/pound is the comment edit for yml
+# let's see if this works, if you use "THEME:" as the property you can only use supported jekyll themes in GitHub pages, apparently "REMOTE_THEME" may work
+remote_theme: windows-95
