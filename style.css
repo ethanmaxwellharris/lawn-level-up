@@ -38,10 +38,3 @@ footer {
   color: #6470a3;
   text-align: center;
 }
-
-div {
-  width: 200px;
-  border: 1px solid #2d2d2d;
-  display: flex;
-  justify-content: center;
-}
