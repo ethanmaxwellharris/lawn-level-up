@@ -1,123 +1,40 @@
-<!doctype html>
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-    crossorigin="anonymous"/>
-  <title>Lawn Level Up</title>
-  <meta name="description" content="lawncare to the rescue">
-  <meta name="author" content="YTN">
-  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
 
-</head>
-  <body>
-    <!-- I'll work on the nav bar later...
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">YTN</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+.footer {
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  padding-top: 40px;
+}
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Reviews</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Builds</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
--->
-    <div class="jumbotron">
-      <h1 class="display-4">Lawn Level Up</h1>
-      <p class="lead">We want to be who you call on for your lawncare and landscape design needs. We're the people you can count on to get your lawn looking great, your patio set up for parties, and your New England-style ribbon driveway set up!</p>
-      <hr class="my-4">
-      <p>I want you call or text me. I'd like to be able to serve you and your family! Let's get to working together.</p>
-      <a class="btn btn-warning btn-lg" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="call or text">434.770.1157</div></a>
-    </div>
+@media screen and (min-width: 768px) {
+    .jumbotron {
+    border-bottom: 0;
+  }
+}
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title text-center">Communication</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">We answer your calls or texts</h6>
-              <p class="card-text text-center">What's worse than trying to call everyone in town to get a job done but no one answers? We make sure that doesn't happen and guarentee same-day replies.</p>
-              <!-- Unused Tag <a href="#" class="card-link text-center">Click to see it in action</a>-->
-            </div>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title text-center">Wow-Factor</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">We leave your yard looking beautiful</h6>
-              <p class="card-text text-center">Every day you leave your home we want you to be able to say, "Hey! That's a good lookin' lawn!" We help make that happen with doing good, consistent work.</p>
-              <!-- Unused Tag <a href="#" class="card-link">Click to see what we charge</a> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title text-center">Flexible</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">Everyone has a tight schedule, we work with you</h6>
-              <p class="card-text text-center">We get it. You have to be at work, drop off the kids, hire a babysitter, plan dinner, and squeeze a hobby in to your day. We want to work around your schedule to the best of our ability.</p>
-              <!-- Unused Tag <a href="#" class="card-link text-center">Click to see a build</a> -->
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <button type="email" class="btn btn-outline-inverse btn-block" a href="mailto:ethan.harriss@gmail.com">lawnlevelup@gmail.com</button>
+.display-4 {
+  color: #6470a3;
+  font-family: 'Permanent Marker', cursive;
+}
 
-        </div>
-    </div>
-</div>
-</div>
-  </body>
+.btn btn-outline-info btn-block {
+  margin-top: 6px;
+  color: rgb(154, 51, 79);
+}
 
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"
-  ></script>
-
-</body>
-<br>
-<footer>Lawn Level Up&copy; 2021</footer>
-</html>
+footer {
+  color: #6470a3;
+  text-align: center;
+}
