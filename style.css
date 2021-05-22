@@ -34,6 +34,10 @@ body {
   color: rgb(154, 51, 79);
 }
 
+image {
+  text-align: center;
+}
+
 footer {
   color: #6470a3;
   text-align: center;
